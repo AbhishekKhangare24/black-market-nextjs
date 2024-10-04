@@ -1,3 +1,7 @@
 export default function Home() {
-  return <div className="">hi</div>;
+  return (
+    <main>
+      <Provider store={store}></Provider>
+    </main>
+  );
 }
