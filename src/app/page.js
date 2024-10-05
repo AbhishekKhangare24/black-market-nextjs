@@ -4,10 +4,10 @@ import { Provider } from "react-redux";
 export default function Home() {
   return (
     <main>
-      {/* <Provider store={store}>
+      <Provider store={store}>
+        hi
         <Toaster />
-      </Provider> */}
-      Hello world
+      </Provider>
     </main>
   );
 }
